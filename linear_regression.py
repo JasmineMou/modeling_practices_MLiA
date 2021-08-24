@@ -24,13 +24,13 @@ class linear_regression:
 		self.y = np.mat(y)
 		# handle the exception of singular matrix
 		xTx = self.x.T * self.x
-		if np.linalg.det(xTx) == 0.0: 
-			print("Matrix of x is singular, cannot do inverse")
-			return 
 
-		## M1. hand calculate
+		## M1. hand calculate with inverse
+		# if np.linalg.det(xTx) == 0.0: 
+		# 	print("Matrix of x is singular, cannot do inverse")
+		# 	return 
 		# self.weights = xTx.I * self.x.T * self.y.T
-		
+
 		## M2. use np.linalg.solve()
 		self.weights = np.linalg.solve(xTx, self.x.T * self.y.T)
 
