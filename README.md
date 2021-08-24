@@ -10,7 +10,8 @@
 - [ ] AdaBoost
 
 ### regression
-- [x] linear regression [linear_regression.py](./linear_regression.py)
+- [x] linear regression/ordinary least squares
+[linear_regression.py](./linear_regression.py)
 - [ ] locally weighted linear regression
 
 shrinkage method
