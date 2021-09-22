@@ -1,4 +1,5 @@
 '''
+(p.153 ~ 159)
 Linear regression to find best line of fit, also called Ordinary Least Squares:
 to find weight variable w:
 - minimize the error btw predicted and actual y (squared error), 

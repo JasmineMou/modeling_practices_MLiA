@@ -3,7 +3,7 @@
 ## algorithms checklist
 ### classification
 - [ ] k-nearest neighbors
-- [ ] decision trees
+- [x] decision trees
 - [x] naive bayes
 - [x] logistic regression
 - [ ] support vector machines
